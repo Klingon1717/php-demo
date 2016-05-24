@@ -1,10 +1,24 @@
 <?php
-	 $i=0;
-	$array=array("apple", "orange", "kiwi", "peach");
-		while($array[$i]){
-			echo "Key: $i Value: $array[$i] <br />";
-			$i++;
+
+	$emailTo="blue@test.com";
+	$subject="Hellooo";
+	$body="one two buckle my shoes";
+	$headers="From: rigby@test.com";
+		// *****WHEN ECHO IS BEFORE MAIL COMMAND IT WILL RETURN A ONE IF IT IS SUCCESSFUL
+		if(mail($emailTo, $subject, $body, $headers)){
+			echo "SUCCESSFUL";
 		}
+		else{
+			echo"NOPE";
+		}
+
+	// ****while loop
+	//  $i=0;
+	// $array=array("apple", "orange", "kiwi", "peach");
+	// 	while($array[$i]){
+	// 		echo "Key: $i Value: $array[$i] <br />";
+	// 		$i++;
+	// 	}
 
 	// while($array[$i]){
 	// 	echo $array[$i];
