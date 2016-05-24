@@ -1,4 +1,8 @@
-<?php
+ <?php
+// 	****use array command to make an array in php
+	// $myArray=array("pizza", "cake", "candy");
+ 	// ****use print_r($ + name of your array) and it will display the elements in your array and the position of each element in the array
+		// print_r($myArray);
 	//**** php variables start with a string $
 	// $test="I'm a variable";
 	// ****then to display the variable you would
@@ -14,7 +18,7 @@
 	// 	echo $number/3;
 	// $name="Rigby";
 	// 	echo "My name is" .$name;
-	$name="Spock";
-	$a="name";
-		echo $$a;
+	// $name="Spock";
+	// $a="name";
+	// 	echo $$a;
 ?>
