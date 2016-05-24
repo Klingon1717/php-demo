@@ -11,5 +11,5 @@
 	// ****to concat strings in php its a period instead of +
 	// echo $test.$test2;
 	$number=75;
-		echo $number;
+		echo $number/3;
 ?>
