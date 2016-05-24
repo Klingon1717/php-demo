@@ -1,8 +1,14 @@
 <?php
 
-	for($i; $i<=10; $i++){
-		echo $i. "<br />";
-	}
+	$array=array("cat","dolphin", "bat", "fish");
+		print_r($array);
+		foreach ($array as $key=>$value){
+			echo "Key: $key Value: $value <br />";
+
+		}
+	// for($i=500; $i>=100; $i=$i-5){
+	// 	echo $i. "<br />";
+	// }
 	
 
 ?>
