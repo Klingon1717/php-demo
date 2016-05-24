@@ -1,5 +1,33 @@
- <?php
- 	// ****you can also use unset command to remove variables
+<?php
+	
+
+?>
+<!-- *********IF ELSE STATEMENTS
+// $number=1;
+	// $otherNumber=2;
+	// $thirdNumber=2;
+	// ****use OR operator if you want only one out of two statements to be true
+	// if($thirdNumber==$otherNumber OR $number==$otherNumber){
+	// *****comparing all three to see if they are the same value
+	// if($thirdNumber==$otherNumber AND $number==$otherNumber){
+	// if($thirdNumber==$otherNumber){
+	// ****if number is not equal to other number
+	// if(!($number==$otherNumber)){
+	// *****if number is not equal to other number
+	// if($number!=$otherNumber){
+	// *******if number is equal to other number
+	// if($number=$otherNumber){
+	// if($number==1){
+	// 	echo "true";
+	// }
+	// else{
+	// 	echo "false";
+	// } -->
+
+
+<!-- ****ARRAY INTRO -->
+
+ 	<!-- // ****you can also use unset command to remove variables
  	// $name="Spock";
  	// 	unset($name);
  	// ****removing element from an array
@@ -43,5 +71,4 @@
 	// 	echo "My name is" .$name;
 	// $name="Spock";
 	// $a="name";
-	// 	echo $$a;
-?>
+	// 	echo $$a; -->
