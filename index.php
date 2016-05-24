@@ -10,6 +10,11 @@
 	// $test2="so am I";
 	// ****to concat strings in php its a period instead of +
 	// echo $test.$test2;
-	$number=75;
-		echo $number/3;
+	// $number=75;
+	// 	echo $number/3;
+	// $name="Rigby";
+	// 	echo "My name is" .$name;
+	$name="Spock";
+	$a="name";
+		echo $$a;
 ?>
