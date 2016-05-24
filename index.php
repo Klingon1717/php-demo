@@ -3,6 +3,8 @@
 	// $myArray=array("pizza", "cake", "candy");
  	// ****use print_r($ + name of your array) and it will display the elements in your array and the position of each element in the array
 		// print_r($myArray);
+ 	// ****accessing elements by position
+ 	// 	echo $myArray[2];
 	//**** php variables start with a string $
 	// $test="I'm a variable";
 	// ****then to display the variable you would
