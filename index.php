@@ -1,11 +1,23 @@
 <?php
-
-	$array=array("cat","dolphin", "bat", "fish");
-		print_r($array);
-		foreach ($array as $key=>$value){
-			echo "Key: $key Value: $value <br />";
-
+	 $i=0;
+	$array=array("apple", "orange", "kiwi", "peach");
+		while($array[$i]){
+			echo "Key: $i Value: $array[$i] <br />";
+			$i++;
 		}
+
+	// while($array[$i]){
+	// 	echo $array[$i];
+	// 	$i++;
+	// }
+
+	// *****foreach command
+	// $array=array("cat","dolphin", "bat", "fish");
+	// 	print_r($array);
+	// 	foreach ($array as $key=>$value){
+	// 		echo "Key: $key Value: $value <br />";
+
+	// 	}
 	// for($i=500; $i>=100; $i=$i-5){
 	// 	echo $i. "<br />";
 	// }
